@@ -1,6 +1,18 @@
 .header {
 	display: flex;
 	background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  }
+
+.header form {
+  align-items: start;
+}
+
+.header h1 {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 .trybewarts-header-logo {
@@ -19,10 +31,12 @@
 	display: flex;
 	width: 675px;
 	flex-direction: column;
+  align-items: center;
 }
 
 #trybewarts-forms-logo {
 	height: 500px;
+  margin-left: 150px;
 }
 
 .name {
@@ -39,16 +53,17 @@
 
 #label-family {
 	display: flex;
-	flex-direction: column;
-}
-#label-content {
-	display: flex;
-	flex-direction: column;
+  margin-top: 10px;
 }
 
+#label-content {
+	display: flex;
+  margin-top: 10px;
+
+}
 #label-rate {
   display: flex;
-  flex-direction: column;
+flex-direction: row; 
 }
 
 .text {
@@ -57,6 +72,31 @@
   width: 350px;
 }
 
-.agreementter {
+#agreementterm {
+  margin: 10px;
   display: flex;
+  flex-direction: row;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.container2 {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#label-infos {
+  display: flex;
+}
+.rate {
+  margin-bottom: 30px;
+}
+
+.textarea {
+  padding: 5px;
 }
