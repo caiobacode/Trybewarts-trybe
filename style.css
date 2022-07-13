@@ -46,3 +46,17 @@
 	flex-direction: column;
 }
 
+#label-rate {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+
+  height: 100px;
+  width: 350px;
+}
+
+.agreementter {
+  display: flex;
+}
