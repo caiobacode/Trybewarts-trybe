@@ -36,3 +36,13 @@
 #house {
 	width: 185px;
 }
+
+#label-family {
+	display: flex;
+	flex-direction: column;
+}
+#label-content {
+	display: flex;
+	flex-direction: column;
+}
+
