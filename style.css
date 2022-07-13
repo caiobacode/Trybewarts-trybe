@@ -24,3 +24,14 @@
 #trybewarts-forms-logo {
 	height: 500px;
 }
+
+.name {
+	display: flex;
+}
+
+.emailcasa {
+	display: flex;
+}
+#house {
+	width: 185px
+}
