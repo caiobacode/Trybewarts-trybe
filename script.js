@@ -1,12 +1,12 @@
 const button = document.getElementById('botao')
-button.addEventListener('click', function() {
+button.addEventListener('click', function(event) {
+  event.preventDefault()
   const email = document.getElementById('email')
   const senha = document.getElementById('password')
-  if (email === 'tryber@teste.com' && senha === '123456') {
-    alert('Olá, Tryber!')
+  if (email.value === 'tryber@teste.com' && senha.value === '123456') {
+    return window.alert('Olá, Tryber!')
   }
   else {
-    alert('Email ou senha inválidos.')
+    return window.alert('Email ou senha inválidos.')
   }
 })
-
