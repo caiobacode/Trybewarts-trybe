@@ -1,8 +1,8 @@
 .header {
-	display: flex;
-	background-color: rgb(50, 167, 145);
+  display: flex;
+  background-color: rgb(50, 167, 145);
   justify-content: space-between;
-  }
+}
 
 .header form {
   align-items: start;
@@ -16,58 +16,57 @@
 }
 
 .trybewarts-header-logo {
-	display: flex;
+  display: flex;
 }
 
 .trybewarts-login {
-	display: flex;
+  display: flex;
 }
 
 .main {
-	display: flex;
+  display: flex;
 }
 
 #evaluation-form {
-	display: flex;
-	width: 675px;
-	flex-direction: column;
+  display: flex;
+  width: 675px;
+  flex-direction: column;
   align-items: center;
 }
 
 #trybewarts-forms-logo {
-	height: 500px;
+  height: 500px;
   margin-left: 150px;
 }
 
 .name {
-	display: flex;
+  display: flex;
 }
 
 .emailcasa {
-	display: flex;
+  display: flex;
 }
 
 #house {
-	width: 185px;
+  width: 185px;
 }
 
 #label-family {
-	display: flex;
+  display: flex;
   margin-top: 10px;
 }
 
 #label-content {
-	display: flex;
+  display: flex;
   margin-top: 10px;
-
 }
+
 #label-rate {
   display: flex;
-flex-direction: row; 
+  flex-direction: row;
 }
 
 .text {
-
   height: 100px;
   width: 350px;
 }
@@ -93,6 +92,7 @@ flex-direction: row;
 #label-infos {
   display: flex;
 }
+
 .rate {
   margin-bottom: 30px;
 }
