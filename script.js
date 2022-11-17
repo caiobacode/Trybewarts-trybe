@@ -10,6 +10,7 @@ button.addEventListener('click', (event) => {
   return window.alert('Email ou senha inválidos.');
 });
 
+const firstForm = document.getElementById('evaluation-form');
 const main = document.getElementById('main-div');
 const conter = document.getElementById('counter');
 const textArea = document.getElementById('textarea');
@@ -44,7 +45,7 @@ const createFormData = () => {
   const familyInput = filterChosed([...document.getElementsByClassName('family')]);
   const hofsInput = filterChosed([...document.getElementsByClassName('subject')]);
   const avaliateInput = filterChosed([...document.getElementsByClassName('rate')]);
-  main.innerHTML = '';
+  firstForm.innerHTML = '';
   const form = document.createElement('form');
   form.id = 'form-data';
   form.appendChild(createElement('p', `Nome: ${nameInput} ${lastNameInput}`));
