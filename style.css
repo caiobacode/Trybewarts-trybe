@@ -148,6 +148,13 @@ footer {
   font-size: 20px;
 }
 
+.header-email-input {
+  margin: 3px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
 .header-password-input:hover {
   transform: scale(1.02);
   margin: 2px;
@@ -158,13 +165,6 @@ footer {
   transform: scale(1.02);
   margin: 2px;
   border: 1px solid black;
-}
-
-.header-email-input {
-  margin: 3px;
-  border: none;
-  border-radius: 10px;
-  font-size: 20px;
 }
 
 .inputs-div {
